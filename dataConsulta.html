@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dataConsulta.css">
+    <title>Data da consulta</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="img_logo" src="img/logo.png" alt="...">
+        </div>
+    </header>
+    <div class="area_container">
+        <h1>Data da consulta</h1>
+        <h2>Selecione a melhor data abaixo.</h2>
+
+        <div class="informacoes_data">
+            <p>Data</p>
+            <p>Horários Disponíveis</p>
+        </div>
+
+        <div class="data_horario">
+        <div class="data">
+            <input id="data" type="date" min="2023-01-10" max="2023-12-15">
+        </div>
+        <!-- Horários da manhã -->
+            <div class="horario_matutino">
+                <p>horários matutino</p>
+            <div class="box_radio">
+                <input type="radio" id="horario_07" name="check">
+                <label for="checkbox-circle1">07:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_08" name="check">
+                <label for="checkbox-circle1">08:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_09" name="check">
+                <label for="checkbox-circle1">09:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_10" name="check">
+                <label for="checkbox-circle1">10:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_11" name="check">
+                <label for="checkbox-circle1">11:00</label>
+              </div><br>
+            </div>
+            <!-- Horários da tarde -->
+            <div class="horario_vesperino">
+                <p>horários vesperino</p>
+            <div class="box_radio">
+                <input type="radio" id="horario_13" name="check">
+                <label for="checkbox-circle1">13:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_14" name="check">
+                <label for="checkbox-circle1">14:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_15" name="check">
+                <label for="checkbox-circle1">15:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_16" name="check">
+                <label for="checkbox-circle1">16:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_17" name="check">
+                <label for="checkbox-circle1">17:00</label>
+              </div>
+            <div class="box_radio">
+                <input type="radio" id="horario_18" name="check">
+                <label for="checkbox-circle1">18:00</label>
+              </div>
+            </div>
+    </div>
+    <div class="butoes">
+        <button class="btn_confirmar">Confirmar</button>
+        <button id="btn_sair">Voltar</button>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_logo{
+    width: 250px;
+    height: 250px;
+ }
+
+ header{
+    height: 25vh;
+    background-color: #010440;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+
