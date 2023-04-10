@@ -25,4 +25,99 @@
     width: 100%;
  }
 
+ .area_container{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border: 2px solid black;
+   margin: 40px 30px;
+   
+ }
 
+ .area_container h1{
+   display: flex;
+   justify-content: center;
+   background-color: #010440;
+   color: white;
+   font-size: 50px;
+   box-shadow: 0 0 2rem black;
+ }
+
+ .area_container h2{
+   font-size: 13px;
+   color: #010440;
+   margin: 15px 10px;
+ }
+
+ .informacoes_data{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 320px ;
+   color: gray;
+   font-size: 15px;
+ }
+
+ .data_horario {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 280px;
+ }
+
+ 
+.horario{
+   display: flex;
+   gap: 30px;
+}
+
+.periodo_matutino{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.periodo_vesperino{
+   display: flex;
+   flex-direction: column;
+}
+
+ .butoes {
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-between;
+   margin: 30px 350px;
+}
+
+ .btn_confirmar{
+   width: 120px;
+   height: 50px;
+   font-size: 20px;
+   background-color: #00008B;
+   border: 1px solid #00008B;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.btn_confirmar:hover{
+   background-color: white;
+   color: #00008B;
+}
+
+#btn_sair {
+   width: 120px;
+   height: 50px;
+   font-size: 20px;
+   border: none;
+   border: 1px solid gray;
+   background-color: white;
+   border-radius: 10px;
+   color: gray;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+#btn_sair:hover{
+   background-color: gray;
+   color: white;
+}
