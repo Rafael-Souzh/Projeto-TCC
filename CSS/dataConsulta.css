@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img_logo{
+    width: 250px;
+    height: 250px;
+ }
+
+ header{
+    height: 25vh;
+    background-color: #010440;
+    box-shadow: 0 0 1rem black;
+    display: flex;
+    justify-content: center;
+    position: relative;
+ }
+
+ .logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+ }
+
+ .area_container{
+   display: flex;
+   flex-direction: column;
+   background-color: white;
+   border: 2px solid black;
+   margin: 40px 60px;
+   
+ }
+
+ .area_container h1{
+   display: flex;
+   justify-content: center;
+   background-color: #010440;
+   color: white;
+   font-size: 50px;
+   box-shadow: 0 0 2rem black;
+ }
+
+ .area_container h2{
+   font-size: 15px;
+   margin: 25px 50px;
+ }
+
+ .data_horario{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+
+ .data_horario h2{
+  margin: 20px 0;
+   font-size: 40px;
+ }
+
+ .data{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 600px;
+   padding: 30px;
+   color: black;
+   background-color: rgba(128, 128, 128, 0.357);
+   border: 3px solid gray;
+   border-radius: 10px;
+   
+ }
+
+ .data input[type="date"]{
+   width: 150px;
+   height: 45px;
+   margin: 25px 0;
+   background-color: gray;
+   color: white;
+   font-size: 20px;
+ }
+
+ .horario{
+   display: flex;
+   flex-direction: column;
+   margin: 20px 30px;
+   width: 600px;
+   padding: 10px;
+   background-color: rgba(128, 128, 128, 0.357);
+   border: 3px solid gray;
+   border-radius: 10px;
+ }
+
+ .horario h2{
+  display: flex;
+  justify-content: center;
+ }
+
+ .horario div p{
+  color: gray;
+  font-size: 14px;
+  font-weight: bold;
+ }
+
+ .Periodo_geral{
+   display: flex;
+   justify-content: space-around;
+ }
+
+ .periodo_matutino{
+   display: flex;
+   flex-direction: column;
+ }
+
+ .input_radio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 12px;
+  width: 80px;
+  height: 40px;
+  background-color: gray;
+  color: white;
+  border-radius: 12px;
+  font-weight: bold;
+  border: 1px solid gray;
+ }
+
+ .periodo_vesperino{
+   display: flex;
+   flex-direction: column;
+ }
+
+ 
+ .botao {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 20px 0;
+}
+
+ .btn_confirmar{
+   width: 120px;
+   height: 50px;
+   font-size: 20px;
+   background-color: #00008B;
+   border: 1px solid #00008B;
+   border-radius: 10px;
+   color: white;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.btn_confirmar:hover{
+   background-color: white;
+   color: #00008B;
+}
+
+
